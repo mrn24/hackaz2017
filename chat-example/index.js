@@ -14,10 +14,10 @@ app.get('/', function(req, res){
 
 io.on('connection', function(socket){
 
-  socket.join('some room2');
+  socket.join('some room2'); // room var
 
   socket.on('chat message', function(msg){
-    io.to('some room2').emit('chat message', msg);
+    io.to('some room2').emit('chat message', msg); // room var
   });
 
 });
