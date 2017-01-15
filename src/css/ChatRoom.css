@@ -1,0 +1,8 @@
+.form {
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
